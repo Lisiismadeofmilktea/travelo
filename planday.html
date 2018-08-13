@@ -1,0 +1,214 @@
+<html>
+
+<head>
+  <link rel="stylesheet"  href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+
+  <div class=“frontcanvas”>
+
+    <div class="headerbox">
+
+      <div class="logobox">
+        <a href="frontpage2.html"><img src="image/headlogo.png" width=100% height=100%></img></a>
+      </div>
+      <div class = "headerforumbox">
+      </div>
+      <div class="headersearchbox">
+        <div class="headersearchidbox">
+         <img src="image/searchid.png" height=15 width=15>
+       </div>
+      </div>
+      <div class="headerprofileimagebox"></div>
+
+      </div>
+
+      <div class = "headerexplorebox">
+        <button class="dropdownexplorebutton" id="explorebutton">Explore</button>
+        <div class="dropdownexplorecontent">
+          <a href="#"> North America </a>
+          <a href="#"> South America </a>
+          <a href="#"> Europe </a>
+          <a href="#"> Asia </a>
+        </div>
+      </div>
+
+      <div class = "headerforumbox">
+        <button class="dropdownforumbutton" id="forumbutton">Forum</button>
+        <div class="dropdownforumcontent">
+          <a href="#"> Foodie </a>
+          <a href="#"> Sports </a>
+          <a href="#"> Culture </a>
+          <a href="#"> Photography </a>
+        </div>
+      </div>
+
+      <div class="index">
+        <p> North America  >> US >> New York </p>
+      </div>
+
+<div class="plandayheaderbox">
+<div class="plandayheadertextbox">  <h4>PLAN</h4></div>
+</div>
+
+<div class="separationline3"></div>
+
+<div class="daysplanbox">
+<div class="daystitlebox"> <h6> DAY 1 </h6> </div>
+<div class="planactivitiesboxes"> <img src="image/event1.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes">  <img src="image/event2.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event3.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event4.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event5.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes" id="planlastbox"> <img src="image/event2.png" height=100% width=100%></img></div>
+<button class="addnewactbutton" data-js="open"> + Add New  </button>
+</div>
+</br></br></br></br>
+<div class="daysplanbox2">
+
+<div class="daystitlebox"> <h6> DAY 2 </h6> </div>
+<div class="planactivitiesboxes"> <img src="image/event1.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes">  <img src="image/event2.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event3.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event4.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event5.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes" id="planlastbox"> <img src="image/event2.png" height=100% width=100%></img></div>
+<button class="addnewactbutton" data-js="open"> + Add New  </button>
+
+</div>
+
+
+<div class="daysplanbox3">
+
+<div class="daystitlebox"> <h6> DAY 2 </h6> </div>
+<div class="planactivitiesboxes"> <img src="image/event1.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes">  <img src="image/event2.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event3.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event4.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes"> <img src="image/event5.png" height=100% width=100%></img></div>
+<div class="planactivitiesboxes" id="planlastbox"> <img src="image/event2.png" height=100% width=100%></img></div>
+<button class="addnewactbutton" data-js="open"> + Add New  </button>
+
+</div>
+
+</div>
+
+
+<div class="twobuttonsbottom">
+  <button class="addanotherdaybuttom"> <p> + New Day</p> </button>
+<button class="savebuttom"><p> Save </p></button>
+
+</div>
+
+
+<div class="popupaddwindow" id="popupwindow">
+<div class="popupboxheader">  <h2>Add New</h2> </div>
+<div class="popupboxleftbox">
+  <div class="sampleimgbx"><img src="image/sampleactiv.png" width=35% height=70%></img></div>
+
+</div>
+<div class="popupboxrightbox">
+<div class="submitform">
+
+  <form >
+      <label for="fname"><p>Activity</p> </label>
+      <input type="text" id="fname" name="firstname" placeholder="What..">
+
+      <label for="lname"><p>Location</p></label>
+      <input type="text" id="lname" name="lastname" placeholder="Where..">
+
+      <label for="country"><p>Time</p></label>
+      <select id="Time" name="Time">
+        <option value="Morning"><p>Morning</p></option>
+        <option value="Afternoon"><p>Afternoon</p></option>
+        <option value="Evening"><p>Evening</p></option>
+      </select>
+
+      <label for="notes"> <p>Notes</p></label>
+      <input type="longtext" id="notes" name="notes" placeholder="Detail..">
+
+      <button type="submit" class="submitbutton"> <h4>Add</h4></button>
+    </form>
+
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="footerbox planaddingcss">
+
+  <div class=footerinnerboxes>
+
+<h2> About Us </h2></br></br></br></br>
+<p> History </p></br>
+<p> Team </p></br>
+<p> Experience </p></br>
+
+  </div>
+
+  <div class=footerinnerboxes>
+
+<h2> Explore </h2></br></br></br></br>
+<p> Africa </p></br>
+<p> Asia </p></br>
+<p> Europe </p></br>
+<p> North America </p></br>
+<p> South America </p></br>
+<p> Oceania  </p></br>
+
+
+  </div>
+
+  <div class=footerinnerboxes>
+
+<h2> Tools </h2></br></br></br></br>
+<p> Planner </p></br>
+<p> Photos </p></br>
+<p> Tip book </p></br>
+  </div>
+
+  <div class=footerinnerboxes>
+
+  <h2> Store </h2></br></br></br></br>
+  <p> Travel </p></br>
+  <p> Flight </p></br>
+  <p> Reservation </p></br>
+  <p> Hotel </p></br>
+
+</div>
+<div class=footerinnerboxes>
+
+  <h2> Contact </h2></br></br></br></br>
+  <p> Career </p></br>
+  <p> Business </p></br>
+  <p> Ads </p></br>
+  <p> Adress </p></br>
+
+
+    </div>
+
+
+</div>
+
+    </div>
+
+  <script>
+  $("#popupwindow").hide(0);
+
+
+  $(document).ready(function () {
+  	$(".addnewactbutton").on("click", function() {
+  		$("#popupwindow").fadeIn(300);
+  	});
+  });
+
+</script>
+
+  </body>
+  </html>
